@@ -1,1 +1,9 @@
-
+首先，我们创建dev分支，然后切换到dev分支：
+$ git checkout -b dev
+git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：$ git branch dev   $ git checkout dev
+然后，用git branch命令查看当前分支：
+$ git branch //git branch命令会列出所有分支，当前分支前面会标一个*号
+现在，我们把dev分支的工作成果合并到当前分支上：
+$ git merge dev  //当前branch是master
+合并完成后，就可以放心地删除dev分支了：
+$ git branch -d dev  //当前branch是dev时无法完成删除哦~
