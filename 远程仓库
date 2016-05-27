@@ -1,5 +1,10 @@
 先设置SSH
-$ git remote add origin git@github.com:michaelliao/learngit.git  //将本地仓库与远程仓库关联
+$ git remote add origin git@github.com:xiaolidefeidao/learngit.git  //将本地仓库与远程仓库关联
 $ git push -u origin master //把本地库的内容推送到远程，用git push命令，实际上是把当前分支master推送到远程。
 由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支
 和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令,可以使用命令git push origin master推送最新修改.
+从远程克隆：
+$ git clone git@github.com:xiaolidefeidao/learngit_note.git    //或者如下：
+$ git clone https://github.com/xiaolidefeidao/learngit_note.git
+要克隆一个仓库，首先必须知道仓库的地址，然后使用git clone命令克隆。
+Git支持多种协议，包括https，但通过ssh支持的原生git协议速度最快。
