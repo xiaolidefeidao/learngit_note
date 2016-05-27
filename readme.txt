@@ -12,7 +12,7 @@ git status //查看工作区的状态
 git diff readme.txt
 git diff HEAD -- readme.txt //命令可以查看工作区和版本库里面最新版本的区别
 git reset --hard <head^或commit_id或head~100> //版本更改
-git log //穿梭前，用git log可以查看提交历史，以便确定要回退到哪个版本。
+git log //穿梭前，用git log可以查看提交历史，以便确定要回退到哪个版本。--graph命令可以看到分支合并图;--pretty=oneline一行显示
 git reflog //要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。
 # 理解暂存区
 cat readme.txt //读取readme.txt中的文本
