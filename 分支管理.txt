@@ -8,3 +8,4 @@ $ git merge dev  //当前branch是master
 合并完成后，就可以放心地删除dev分支了：
 $ git branch -d dev  //当前branch是dev时无法完成删除哦~
 #在没有merge时想删除branch dev 使用 git branch -D dev
+#在哪个分支下commit，改变便提交给哪个分支，与在哪个分支时修改或add的文件无关
