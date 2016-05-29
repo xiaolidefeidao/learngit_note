@@ -7,7 +7,7 @@ $ cd learngit
 $ pwd  //pwd命令用于显示当前目录
 git init
 git add readme.txt
-git commit -m "create readme.txt"
+git commit -m "create readme.txt"  //在哪个分支下commit，改变便提交给哪个分支，与在哪个分支时修改或add的文件无关
 git status //查看工作区的状态
 git diff readme.txt
 git diff HEAD -- readme.txt //命令可以查看工作区和版本库里面最新版本的区别
