@@ -7,3 +7,4 @@ $ git branch //git branch命令会列出所有分支，当前分支前面会标�
 $ git merge dev  //当前branch是master
 合并完成后，就可以放心地删除dev分支了：
 $ git branch -d dev  //当前branch是dev时无法完成删除哦~
+#在没有merge时想删除branch dev 使用 git branch -D dev
