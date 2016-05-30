@@ -5,6 +5,7 @@ git tag -s <tagname> -m "blablabla..."可以用PGP签名标签；
 命令git tag可以查看所有标签。
 标签不是按时间顺序列出，而是按字母排序的。可以用git show <tagname>查看标签信息.
 小结
+命令git checkout <tagname>可以切换到相应的版本；
 命令git push origin <tagname>可以推送一个本地标签；
 命令git push origin --tags可以推送全部未推送过的本地标签；
 如果标签已经推送到远程，要删除远程标签就麻烦一点，先从本地删除：
